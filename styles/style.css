@@ -68,3 +68,55 @@
     display: inline-block;
     margin-left: 48px;
   }
+
+  body {
+    padding: 1rem 5rem;
+  }
+
+  .title {
+    font-weight: 700;
+    font-size: 2rem;
+    color: blue;
+    margin: 1rem 0px;
+  }
+
+  .name {
+    font-family: 'Playfair Display';
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 1rem 0px;
+  }
+
+  .information {
+    margin: 1rem 0px;
+   
+  }
+
+  .right-side img {
+    position: absolute;
+    top: 80px;
+    right: 325px;
+    margin: 0;
+    z-index: -1;
+    
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    margin-top: 3rem;
+  }
+  
+  .footer-icon {
+    width: 3rem;
+    height: 3rem;
+    transition-duration: 200ms;
+  }
+  
+  .footer-icon:hover {
+    fill: #fdc435;
+    transition-duration: 200ms;
+  }
